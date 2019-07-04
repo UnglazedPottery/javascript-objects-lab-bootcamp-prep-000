@@ -7,7 +7,7 @@ var recipes = {bread: "starter"}
 
 destructivelyUpdateObjectWithKeyAndValue(object, key, value)
 {
-  return Object.assign(object, {[key]: value})
+  return Object.assign(object, {key: value})
 }
 
 deleteFromObjectByKey(object, key)
